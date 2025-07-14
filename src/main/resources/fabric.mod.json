@@ -2,27 +2,27 @@
 	"schemaVersion": 1,
 	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "Tutorial mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Tutorial Mod",
+	"description": "Tutorial Mod by moongaka for myself",
 	"authors": [
-		"moongaka!"
+		"Moongaka!"
 	],
 	"contact": {
-		"homepage": "https://moongaka.com",
-		"sources": "https://github.com/Tutorials-By-Moongaka/Fabric-Tutorial-1.21.X"
+		"homepage": "https://moongaka.net",
+		"sources": "https://github.com/Tutorials-By-moongaka/Fabric-Tutorial-1.21.X"
 	},
 	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.moongaka.tutorialmod.TutorialMod"
+			"net.moongaka.tutorialmod.TutorialMod"
 		],
 		"fabric-datagen": [
-			"com.moongaka.tutorialmod.TutorialModDataGenerator"
+			"net.moongaka.tutorialmod.TutorialModDataGenerator"
 		],
 		"client": [
-			"com.moongaka.tutorialmod.TutorialModClient"
+			"net.moongaka.tutorialmod.TutorialModCilent"
 		]
 	},
 	"mixins": [
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.7",
+		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
